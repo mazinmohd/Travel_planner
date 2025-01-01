@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Planner - Plan Your Perfect Trip</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/icon3.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-content">
+            <div class="logo">
+                <h1>TravelPlanner</h1>
+            </div>
+            <div class="nav-links">
+                <a href="#destinations">Destinations</a>
+                <a href="#itinerary">Create Itinerary</a>
+                <a href="#budget">Budget</a>
+                <button class="btn btn-primary">Sign In</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container text-center">
+            <h1>Plan Your Dream Journey</h1>
+            <p class="mt-4">Discover amazing destinations and create unforgettable memories</p>
+            <div class="search-bar">
+                <form>
+                    <input type="text" class="input" placeholder="Where do you want to go?">
+                    <button type="submit" class="btn btn-primary">Search</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Destinations -->
+    <section id="destinations" class="p-4">
+        <div class="container">
+            <h2 class="text-center mb-4">Popular Destinations</h2>
+            <div class="destinations-grid">
+                <!-- Destination Card 1 -->
+                <div class="destination-card">
+                    <img src="images/paris.jpg" alt="Paris">
+                    <div class="p-4">
+                        <h3>Paris, France</h3>
+                        <p>The city of lights and romance</p>
+                        <div class="mt-4">
+                            <span><i class="fas fa-star"></i> 4.8</span>
+                            <button class="btn btn-primary">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Destination Card 2 -->
+                <div class="destination-card">
+                    <img src="images/tokyo.jpg" alt="Tokyo">
+                    <div class="p-4">
+                        <h3>Tokyo, Japan</h3>
+                        <p>Where tradition meets future</p>
+                        <div class="mt-4">
+                            <span><i class="fas fa-star"></i> 4.9</span>
+                            <button class="btn btn-primary">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Destination Card 3 -->
+                <div class="destination-card">
+                    <img src="images/bali.jpg" alt="Bali">
+                    <div class="p-4">
+                        <h3>Bali, Indonesia</h3>
+                        <p>Paradise island getaway</p>
+                        <div class="mt-4">
+                            <span><i class="fas fa-star"></i> 4.7</span>
+                            <button class="btn btn-primary">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Itinerary Builder -->
+    <section id="itinerary" class="itinerary-builder">
+        <div class="container">
+            <h2 class="text-center mb-4">Create Your Itinerary</h2>
+            <div class="timeline">
+                <div class="form-group">
+                    <input type="text" class="input" placeholder="Trip Name">
+                </div>
+                <div class="form-group">
+                    <input type="date" class="input" placeholder="Start Date">
+                    <input type="date" class="input mt-4" placeholder="End Date">
+                </div>
+                <button class="btn btn-primary">Add Destination</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Budget Tracker -->
+    <section id="budget" class="p-4">
+        <div class="container">
+            <h2 class="text-center mb-4">Budget Tracker</h2>
+            <div class="budget-tracker">
+                <div class="form-group">
+                    <label>Total Budget</label>
+                    <input type="number" class="input" placeholder="Enter your budget">
+                </div>
+                <div class="form-group">
+                    <label>Expenses Categories</label>
+                    <div class="mt-4">
+                        <button class="btn btn-primary">Add Expense</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="p-4">
+        <div class="container text-center">
+            <p>&copy; 2024 TravelPlanner. All rights reserved.</p>
+            <div class="mt-4">
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.x.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
